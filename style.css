@@ -1,0 +1,110 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+div#containerRec{
+  width: 786px;
+  height: 520px;
+  background: #FFFFFF;
+ /* border: 1px solid red;*/
+}
+div#topoRec{
+  display: flex;
+  align-items: center;
+ 
+}
+
+label, input[type=search], button#filtrar, button#cadastrar{
+  margin-top:11px;
+  margin-bottom:12px;
+}
+label{
+font-size: 20px;
+font-weight: bold;
+margin-right: 11px;
+margin-left: 18px;
+}
+
+input[type=search]{
+  width: 363px;
+  height: 32px;
+  border-radius: 5px;
+  margin-right: 5px;
+  border-top: 1px solid #898B8C;
+  border-left:1px solid #898B8C;
+  border-right:1px solid #898B8C;
+  border-bottom:1px solid #898B8C;
+  
+  }
+button#filtrar{
+  width: 61px;
+  height: 30px;
+}
+button#cadastrar{
+  width: 148px;
+  height: 31px;
+}
+button#filtrar, button#cadastrar {
+  background: #0085FF;
+  border-radius: 7px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-right:5px;
+  border: none;
+}
+#tabContasRec#nomeCliente{
+  font-size: 5px;
+}
+table#tabContasRec{
+  width: 800px;
+  height: 431px;
+  /*border: 1px solid black;*/
+  border-collapse: separate;
+  margin-left: 18px;
+  font-size: 16px;
+ 
+}
+.dtVenc, .dtPag, .sitCab, .sit{
+  text-align: center;
+}
+.cliente{
+  width:420px;
+  height: 40px;
+  display: flex;
+  /*border-bottom: 1px solid #7f888d;*/
+  }
+
+.sit{
+  font-size: 12px;
+}
+.dtPag, .dtVenc{
+  width: 70px;
+}
+.dtVenc{
+  width:110px;
+}
+
+table#tabContasRec span.pendente{
+  color:#DB0015;
+}
+table#tabContasRec span.pago{
+  color: #138647;
+}
+table#tabContasRec span.processando{
+  color:#0085FF;
+}
+img{
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  margin-top: 3px;
+  align-items:center;
+  display:flex;
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  display: flex;
+}
